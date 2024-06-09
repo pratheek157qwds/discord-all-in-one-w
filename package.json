@@ -1,0 +1,32 @@
+{
+  "name": "riffy-music-bot",
+  "description": "A pro music bot for discord using riffy and musicard.",
+  "version": "1.0.4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.17.0",
+    "ascii-table": "^0.0.9",
+    "better-sqlite3": "^11.0.0",
+    "colors": "^1.4.0",
+    "discord.js": "^14.15.3",
+    "enmap": "^6.0.2",
+    "moment": "^2.30.1",
+    "ms": "^2.1.3",
+    "musicard": "latest",
+    "quick.db": "^9.1.7",
+    "riffy": "latest"
+  },
+  "keywords": [
+    "PPR",
+    "music-bot",
+    "discord-music-bot",
+    "PPR-music-bot",
+    "discord-pro-handler"
+  ],
+  "author": "PPR",
+  "license": "MIT"
+}
